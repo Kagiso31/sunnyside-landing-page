@@ -1,7 +1,14 @@
+import Navbar from "./components/Navbar";
+import Testimonials from "./components/Testimonials";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+
 const App = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="text-indigo-500 text-3xl">Hello, World!</h1>
+    <div>
+      <div className="bg-primary-blue">
+        <Navbar />
+      </div>
     </div>
   );
 };
