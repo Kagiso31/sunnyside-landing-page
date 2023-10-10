@@ -6,6 +6,15 @@ import emily from "../assets/image-emily.jpg";
 import jennie from "../assets/image-jennie.jpg";
 import thomas from "../assets/image-thomas.jpg";
 
+import milkDesktop from "../assets/desktop/image-gallery-milkbottles.jpg";
+import milkMobile from "../assets/mobile/image-gallery-milkbottles.jpg";
+import coneDesktop from "../assets/desktop/image-gallery-cone.jpg";
+import coneMobile from "../assets/mobile/image-gallery-cone.jpg";
+import orangeDesktop from "../assets/desktop/image-gallery-orange.jpg";
+import orangeMobile from "../assets/mobile/image-gallery-orange.jpg";
+import sugarDesktop from "../assets/desktop/image-gallery-sugarcubes.jpg";
+import sugarMobile from "../assets/mobile/image-gallery-sugar-cubes.jpg";
+
 export const testimonials = [
   {
     id: 1,
@@ -45,6 +54,29 @@ export const links = [
   {
     id: 3,
     title: "Projects",
+  },
+];
+
+export const gallery = [
+  {
+    id: 1,
+    desktopImg: milkDesktop,
+    mobileImg: milkMobile,
+  },
+  {
+    id: 2,
+    desktopImg: orangeDesktop,
+    mobileImg: orangeMobile,
+  },
+  {
+    id: 3,
+    desktopImg: coneDesktop,
+    mobileImg: coneMobile,
+  },
+  {
+    id: 4,
+    desktopImg: sugarDesktop,
+    mobileImg: sugarMobile,
   },
 ];
 

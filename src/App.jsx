@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Content from "./components/Content";
 import Testimonials from "./components/Testimonials";
+import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       </header>
       <Content />
       <Testimonials />
+      <Gallery />
     </div>
   );
 };
