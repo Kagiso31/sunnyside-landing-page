@@ -68,11 +68,10 @@ const Content = () => {
         </div>
       </section>
 
-      <section className="flex flex-col md:grid md:grid-cols-2 h-[600px]">
+      <section className="flex flex-col md:grid md:grid-cols-2 md:h-[600px]">
         {/* Graphic Design */}
-        <div className="bg-primary-cyan">
-          <div className="relative h-full mx-auto md:mr-0 md:ml-auto max-w-[720px] md:bg-[url('./assets/desktop/image-graphic-design.jpg')] bg-no-repeat bg-center">
-            <img className="md:hidden" src={cherriesImgMobile} />
+        <div className="bg-primary-cyan h-[470px] md:h-auto">
+          <div className="relative h-full mx-auto md:mr-0 md:ml-auto max-w-[720px] bg-[url('./assets/desktop/image-graphic-design.jpg')] md:bg-[url('./assets/desktop/image-graphic-design.jpg')] bg-no-repeat bg-center">
             <div className="absolute text-center bottom-10 md:bottom-20 md:min-w-[370px]  md:left-1/2 md:-translate-x-1/2">
               <h2 className="font-serif font-bold text-3xl mb-8 md:mb-10">
                 Graphic design
@@ -87,9 +86,8 @@ const Content = () => {
         </div>
 
         {/* Photography */}
-        <div className="bg-primary-blue">
-          <div className="relative h-full mx-auto md:ml-0 max-w-[720px] md:bg-[url('./assets/desktop/image-photography.jpg')] bg-no-repeat bg-center ">
-            <img className="md:hidden" src={orangeImgMobile} />
+        <div className="bg-primary-blue h-[470px] md:h-auto">
+          <div className="relative h-full mx-auto md:ml-0 max-w-[720px] bg-[url('./assets/desktop/image-photography.jpg')] md:bg-[url('./assets/desktop/image-photography.jpg')] bg-no-repeat bg-top bg-cover">
             <div className="absolute text-center bottom-10 md:bottom-20 md:min-w-[370px] md:right-1/2 md:translate-x-1/2">
               <h2 className="font-serif font-bold text-3xl mb-8 md:mb-10">
                 Photography
