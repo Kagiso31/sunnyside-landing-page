@@ -7,7 +7,6 @@ export default {
       primary: {
         red: "hsl(7, 99%, 70%)",
         yellow: "hsl(51, 100%, 49%)",
-        blue: "hsl(200, 100%, 62%)",
         "blue-dark": "hsl(198, 62%, 26%)",
         "cyan-desaturated": "hsl(167, 40%, 24%)",
         "cyan-moderate": "hsl(168, 34%, 41%)",

@@ -4,7 +4,7 @@ import { links } from "../constants/index";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="container flex items-center relative mx-auto px-5 sm:px-2 py-6 sm:py-[2.125rem]">
+    <nav className="container flex items-center relative mx-auto px-5 sm:px-2 py-6 sm:py-[2.125rem] z-10">
       {/* logo */}
       <div className="flex-1">
         <svg width="124" height="24" xmlns="http://www.w3.org/2000/svg">
@@ -51,15 +51,13 @@ const Navbar = () => {
         <div
           className={`${
             toggleMenu ? "block" : "hidden"
-          } absolute top-28 left-5 right-5 pt-[2.875rem] pb-10 bg-neutral-white  |before:content-[""] before:border-solid before:border-neutral-white before:border-[24px] before:top-0 before:absolute before:right-0 before:border-l-[transparent] before:border-t-[transparent] before:-translate-y-full`}
+          } absolute top-24 left-5 right-5 pt-[2.875rem] pb-10 bg-neutral-white  |before:content-[""] before:border-solid before:border-neutral-white before:border-[14px] before:top-0 before:absolute before:right-0 before:border-l-[transparent] before:border-t-[transparent] before:-translate-y-full`}
         >
           <ul className="flex flex-col items-center">
             {links.map((link, index) => (
               <li
                 key={link.id}
-                className={`font-sans font-semibold text-lg text-neutral-grayish-blue-900 ${
-                  index === links.length - 1 ? "mb-[2.125rem]" : "mb-[2.625rem]"
-                }`}
+                className="font-sans font-semibold text-lg text-neutral-grayish-blue-900 mb-[2.125rem]"
               >
                 <a href={`#${link.title}`}>{link.title}</a>
               </li>
